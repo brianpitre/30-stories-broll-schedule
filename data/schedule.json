@@ -1,0 +1,461 @@
+{
+  "_comment": "Canonical schedule data for the 30 Stories B-roll page. Edit this file, then run build.py to regenerate index.html. Do not hand-edit index.html.",
+  "window": {
+    "start": "2026-08-16",
+    "end": "2026-09-06",
+    "label": "August 16 &ndash; September 6, 2026"
+  },
+  "campuses": {
+    "hsl": "Houston Levee",
+    "asp": "Austin Peay",
+    "hld": "Highland"
+  },
+  "overrides": {
+    "excluded": [
+      {
+        "name": "Steve Streitmatter",
+        "date": "2026-08-30",
+        "campus": "hld",
+        "start": "9:00 am",
+        "reason": "Confirmed by Elizabeth 2026-08-15: intentionally off the page. Present in the '30 Stories B-Roll' sheet; the sync must NOT re-add him."
+      }
+    ],
+    "page_only": [
+      {
+        "name": "LaKendra Malone",
+        "date": "2026-08-16",
+        "campus": "hld",
+        "reason": "Not in the sheet. Added manually; keep unless Elizabeth says otherwise."
+      },
+      {
+        "name": "Tk Jones",
+        "date": "2026-08-23",
+        "campus": "hld",
+        "reason": "Not in the sheet. Added manually; keep unless Elizabeth says otherwise."
+      },
+      {
+        "name": "Jeremy Fields",
+        "date": "2026-08-30",
+        "campus": "hsl",
+        "reason": "Sheet row for 8/30 10:30 is blank. Added manually; keep unless Elizabeth says otherwise."
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2026-08-16",
+      "dow": "Sunday",
+      "label": "August 16",
+      "campuses": [
+        {
+          "code": "hsl",
+          "slots": [
+            {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "Kate and James Gray",
+              "phone": "+19014844845",
+              "shot": "Mingling together",
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "katebg40@hotmail.com"
+                }
+              ]
+            },
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Kate Gray",
+              "phone": "+19014844845",
+              "shot": "Greeter",
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "katebg40@hotmail.com"
+                }
+              ]
+            },
+            {
+              "start": "10:30 am",
+              "end": "11:00 am",
+              "name": "David Epting",
+              "phone": "+19018318930",
+              "shot": "Drums 9:00 & 11:00",
+              "their_note": "Playing drums for 9am and 11am service",
+              "emails": [
+                {
+                  "address": "docepting25@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "11:00 am",
+              "end": "11:30 am",
+              "name": "Amanda Meneses",
+              "phone": "+19013361975",
+              "shot": "Motion — teaching the lesson 11:20ish",
+              "their_note": "I’ll be teaching the lesson in Motion. I’m teaching the lesson around 11:20ish",
+              "emails": [
+                {
+                  "address": "amanda@thelifechurch.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "asp",
+          "slots": [
+            {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "Thomas Marshall",
+              "phone": "+14796573102",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "tmarshall1329@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Bella Chapman",
+              "phone": "+19014611163",
+              "shot": "Bass player",
+              "their_note": "I am playing bass that morning!",
+              "emails": [
+                {
+                  "address": "isabellachapman2012@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "10:30 am",
+              "end": "11:00 am",
+              "name": "Megan Marshall",
+              "phone": "+14796573102",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "megannicoleowens@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "11:00 am",
+              "end": "11:30 am",
+              "name": "Marlencia Walker",
+              "phone": "+15046381190",
+              "shot": "Terro — Production. Marlencia — Worship",
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "terrowalker@hotmail.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "hld",
+          "slots": [
+            {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "Makyah Malone",
+              "phone": "+19018313888",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "makyah.malone@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "10:30 am",
+              "end": "11:00 am",
+              "name": "LaKendra Malone",
+              "phone": "+16622160963",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "lakendra@thelifechurch.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "dow": "Sunday",
+      "label": "August 23",
+      "campuses": [
+        {
+          "code": "hsl",
+          "slots": [
+            {
+              "start": "7:30 am",
+              "end": "8:00 am",
+              "name": "Yunna Martin",
+              "phone": "+19012994806",
+              "shot": null,
+              "their_note": "Out team begins at 7:15AM",
+              "emails": [
+                {
+                  "address": "yunnamartin@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Kaymen Herrera",
+              "phone": "+19016515869",
+              "shot": "Worship — 9:00 & 11:00",
+              "their_note": "Ill be on worship with Z that morning. 9 or 11am works",
+              "emails": [
+                {
+                  "address": "kaymenherrera0@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "10:30 am",
+              "end": "11:00 am",
+              "name": "Kelly White",
+              "phone": "+19018250404",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "klynn74@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "11:00 am",
+              "end": "11:30 am",
+              "name": "Samina Russell",
+              "phone": "+19012183618",
+              "shot": "Production",
+              "their_note": "I serve in Production at HSL.",
+              "emails": [
+                {
+                  "address": "srussell@thelifechurch.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "asp",
+          "slots": [
+            {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "Kwanza Ozier",
+              "phone": "+19016050224",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "kwozier@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Ingrid Kimble",
+              "phone": "+19013890722",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "kisingrid@gmail.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "hld",
+          "slots": [
+            {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "Tk Jones",
+              "phone": "+19013833558",
+              "shot": null,
+              "their_note": "I serve during the 9a service as a member of the fresh start team.  I am often rostered as a prayer leader during ministry time and i also hand out the fresh start books after service as part of the next steps team.",
+              "emails": [
+                {
+                  "address": "tk.life.2013@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Carol & Travis Moody",
+              "phone": "+19016059835",
+              "shot": null,
+              "their_note": "We’ll be serving for Baptism",
+              "emails": [
+                {
+                  "address": "debtfreemoody@gmail.com"
+                },
+                {
+                  "address": "travis@forwardmemphis.com",
+                  "tag": "guest"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "dow": "Sunday",
+      "label": "August 30",
+      "campuses": [
+        {
+          "code": "hsl",
+          "slots": [
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Travis Yu",
+              "phone": "+17135408542",
+              "shot": "Control room — Production",
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "travisyu515@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "10:30 am",
+              "end": "11:00 am",
+              "name": "Jeremy Fields",
+              "phone": "+19015907967",
+              "shot": null,
+              "their_note": "I serve in the HSL kitchen every Sunday morning 6:30-10:30 preparing breakfast if you are available to grab B-roll of me serving as well as interacting in the lobby and auditorium.",
+              "emails": [
+                {
+                  "address": "jfieldsdamayne@gmail.com"
+                }
+              ]
+            },
+            {
+              "start": "11:00 am",
+              "end": "11:30 am",
+              "name": "Aubrey VanBlaricom",
+              "phone": "+19015988688",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "aubrey.lea@gmail.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "asp",
+          "slots": [
+            {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "Kim London",
+              "phone": "+19013560047",
+              "shot": "Kids Life",
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "kimwilkins25@aol.com"
+                }
+              ]
+            },
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "LaHenrya Boyd",
+              "phone": "+19018282959",
+              "shot": "LaHenrya — counting team between services. Kevin — Safety team before and during service",
+              "their_note": "I serve on the Counting team so my responsibilties happen between the 9 & 11 services. Kevin serves on Safety so he arrives before the 9a service to prep and serves during the service in the auditorium.",
+              "emails": [
+                {
+                  "address": "l.carter.boyd@gmail.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "dow": "Tuesday",
+      "label": "September 1",
+      "campuses": [
+        {
+          "code": "hsl",
+          "slots": [
+            {
+              "start": "11:00 am",
+              "end": "11:30 am",
+              "name": "Randy & Alberta Sullivan",
+              "phone": "+19012778426",
+              "shot": "Salt and Light",
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "rsulliv6@bellsouth.net"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "dow": "Sunday",
+      "label": "September 6",
+      "campuses": [
+        {
+          "code": "hsl",
+          "slots": [
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Jane Lawson",
+              "phone": "+19014862014",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "jane@thelifechurch.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "synced_at": "Aug 15, 2026 at 2:15 PM"
+}
