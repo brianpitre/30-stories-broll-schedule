@@ -188,33 +188,29 @@ def main():
     doc = json.load(open(f"{ROOT}/data/schedule.json", encoding="utf-8"))
     check = "--check" in sys.argv
 
-    # Keep the stamp stable on a --check run so an unchanged page does not look stale.
-    synced_at = doc.get("synced_at") or datetime.now().strftime("%b %-d, %Y at %-I:%M %p")
-    if not check:
-        synced_at = datetime.now().strftime("%b %-d, %Y at %-I:%M %p")
-
-    html = build(doc, synced_at)
-    current = ""
     try:
         current = open(f"{ROOT}/index.html", encoding="utf-8").read()
     except FileNotFoundError:
-        pass
+        current = ""
+
+    # Render with the stored stamp first. If that matches what is on disk, nothing
+    # about the schedule actually changed -- leave the file alone rather than
+    # bumping the timestamp, so "synced" keeps meaning "last real change".
+    previous = doc.get("synced_at")
+    if previous and build(doc, previous) == current:
+        print("index.html is up to date" if check else "index.html unchanged")
+        return 0
 
     if check:
-        if html == current:
-            print("index.html is up to date")
-            return 0
         print("index.html is STALE - run: python3 build.py")
         return 1
 
-    if html != current:
-        open(f"{ROOT}/index.html", "w", encoding="utf-8").write(html)
-        doc["synced_at"] = synced_at
-        json.dump(doc, open(f"{ROOT}/data/schedule.json", "w", encoding="utf-8"),
-                  indent=2, ensure_ascii=False)
-        print(f"index.html rebuilt ({synced_at})")
-    else:
-        print("index.html unchanged")
+    synced_at = datetime.now().strftime("%b %-d, %Y at %-I:%M %p")
+    open(f"{ROOT}/index.html", "w", encoding="utf-8").write(build(doc, synced_at))
+    doc["synced_at"] = synced_at
+    json.dump(doc, open(f"{ROOT}/data/schedule.json", "w", encoding="utf-8"),
+              indent=2, ensure_ascii=False)
+    print(f"index.html rebuilt ({synced_at})")
     return 0
 
 
