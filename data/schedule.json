@@ -17,27 +17,22 @@
         "date": "2026-08-30",
         "campus": "hld",
         "start": "9:00 am",
-        "reason": "Confirmed by Elizabeth 2026-08-15: intentionally off the page. Present in the '30 Stories B-Roll' sheet; the sync must NOT re-add him."
+        "reason": "Elizabeth asked on 2026-08-15 to keep him off the page, on the understanding that he existed only in the '30 Stories B-Roll' sheet. That was wrong: he has an ACTIVE Calendly booking (Aug 30, 9:00 am, Highland, stevestreitmatter@gmail.com, booked 2026-08-11 under the briangpitre@gmail.com HLD account). Raised with her on 2026-08-17 and awaiting her decision. Until she answers, keep him off."
       }
     ],
-    "page_only": [
+    "page_only": [],
+    "open_questions": [
       {
-        "name": "LaKendra Malone",
-        "date": "2026-08-16",
-        "campus": "hld",
-        "reason": "Not in the sheet. Added manually; keep unless Elizabeth says otherwise."
-      },
-      {
-        "name": "Tk Jones",
-        "date": "2026-08-23",
-        "campus": "hld",
-        "reason": "Not in the sheet. Added manually; keep unless Elizabeth says otherwise."
-      },
-      {
-        "name": "Jeremy Fields",
+        "who": "Steve Streitmatter",
         "date": "2026-08-30",
+        "campus": "hld",
+        "question": "Active Calendly booking conflicts with the standing instruction to keep him off the page. Awaiting Elizabeth's decision; do not act unilaterally."
+      },
+      {
+        "who": "Yunna Martin",
+        "date": "2026-08-23",
         "campus": "hsl",
-        "reason": "Sheet row for 8/30 10:30 is blank. Added manually; keep unless Elizabeth says otherwise."
+        "question": "The sheet and the page say 7:30 am; her Calendly booking says 8:30 am. Her own note says her team begins at 7:15 am, which supports the earlier call. Awaiting Elizabeth's decision; page currently shows 7:30 am."
       }
     ]
   },
@@ -370,6 +365,19 @@
                   "address": "aubrey.lea@gmail.com"
                 }
               ]
+            },
+            {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "James Gray",
+              "phone": "+19014844845",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "katebg40@hotmail.com"
+                }
+              ]
             }
           ]
         },
@@ -457,5 +465,5 @@
       ]
     }
   ],
-  "synced_at": "Aug 15, 2026 at 2:15 PM"
+  "synced_at": "Aug 17, 2026 at 11:37 AM"
 }
