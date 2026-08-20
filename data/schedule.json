@@ -405,6 +405,19 @@
           "code": "hld",
           "slots": [
             {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "LaKendra Malone",
+              "phone": "+16622160963",
+              "shot": null,
+              "their_note": "I'm scheduling follow up filming to get shots with my husband and daughter.",
+              "emails": [
+                {
+                  "address": "lakendra@thelifechurch.com"
+                }
+              ]
+            },
+            {
               "start": "9:00 am",
               "end": "9:30 am",
               "name": "Steve Streitmatter",
@@ -472,5 +485,5 @@
       ]
     }
   ],
-  "synced_at": "Aug 17, 2026 at 12:32 PM"
+  "synced_at": "Aug 20, 2026 at 11:01 AM"
 }
