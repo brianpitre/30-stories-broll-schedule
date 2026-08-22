@@ -12,7 +12,14 @@
   },
   "overrides": {
     "excluded": [],
-    "page_only": [],
+    "page_only": [
+      {
+        "who": "Kate Gray",
+        "date": "2026-08-23",
+        "campus": "hsl",
+        "reason": "Serving baptisms at both the 9:00 and 11:00 services. Told to Claude directly by Elizabeth on 2026-08-22; she has no Calendly booking and no sheet row for Aug 23. Do not remove her for being absent from the sources."
+      }
+    ],
     "time_overrides": [
       {
         "who": "Yunna Martin",
@@ -235,6 +242,32 @@
               "emails": [
                 {
                   "address": "srussell@thelifechurch.com"
+                }
+              ]
+            },
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Kate Gray",
+              "phone": "+19014844845",
+              "shot": "Baptism — serving both services",
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "katebg40@hotmail.com"
+                }
+              ]
+            },
+            {
+              "start": "11:00 am",
+              "end": "11:30 am",
+              "name": "Kate Gray",
+              "phone": "+19014844845",
+              "shot": "Baptism — serving both services",
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "katebg40@hotmail.com"
                 }
               ]
             }
@@ -502,5 +535,5 @@
       ]
     }
   ],
-  "synced_at": "Aug 22, 2026 at 6:31 PM"
+  "synced_at": "Aug 22, 2026 at 6:36 PM"
 }
