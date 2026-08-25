@@ -28,6 +28,14 @@
         "page_time": "7:30 am",
         "calendly_time": "8:30 am",
         "reason": "Elizabeth confirmed 2026-08-17: her outreach team starts before the 8:30 booking, so the crew will have someone in place at 7:30. The page is deliberately EARLIER than Calendly. Do not 'correct' this to 8:30 -- the mismatch is intentional and is not a finding to report."
+      },
+      {
+        "who": "Yunna Martin",
+        "date": "2026-09-06",
+        "campus": "hsl",
+        "page_time": "7:30 am",
+        "calendly_time": "8:30 am",
+        "reason": "Same as her Aug 23 slot: she books the earliest bookable 8:30 slot but her team starts earlier, and her own booking note says '7:30 start time'. Applied the handling Elizabeth confirmed on 2026-08-17. Flagged to her 2026-08-25 -- if she wants 8:30 instead, change it and drop this entry."
       }
     ],
     "open_questions": []
@@ -277,19 +285,6 @@
           "code": "asp",
           "slots": [
             {
-              "start": "8:30 am",
-              "end": "9:00 am",
-              "name": "Kwanza Ozier",
-              "phone": "+19016050224",
-              "shot": null,
-              "their_note": null,
-              "emails": [
-                {
-                  "address": "kwozier@gmail.com"
-                }
-              ]
-            },
-            {
               "start": "9:00 am",
               "end": "9:30 am",
               "name": "Ingrid Kimble",
@@ -431,6 +426,19 @@
                   "address": "l.carter.boyd@gmail.com"
                 }
               ]
+            },
+            {
+              "start": "10:30 am",
+              "end": "11:00 am",
+              "name": "Kwanza Ozier",
+              "phone": "+19016050224",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "kwozier@gmail.com"
+                }
+              ]
             }
           ]
         },
@@ -529,11 +537,24 @@
                   "tag": "guest"
                 }
               ]
+            },
+            {
+              "start": "7:30 am",
+              "end": "8:00 am",
+              "name": "Yunna Martin",
+              "phone": "+19012994806",
+              "shot": null,
+              "their_note": "7:30 start time",
+              "emails": [
+                {
+                  "address": "yunnamartin@gmail.com"
+                }
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "synced_at": "Aug 22, 2026 at 6:36 PM"
+  "synced_at": "Aug 25, 2026 at 2:30 PM"
 }
