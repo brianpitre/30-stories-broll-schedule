@@ -470,6 +470,19 @@
                   "address": "stevestreitmatter@gmail.com"
                 }
               ]
+            },
+            {
+              "start": "10:30 am",
+              "end": "11:00 am",
+              "name": "Tk Jones",
+              "phone": "+19013833558",
+              "shot": "Prayer leader 9a — Axis side, house left; fresh start books after",
+              "their_note": "Elizabeth, if it helps, I am rostered this Sunday, 8/30 for the 9a service as a prayer leader on the Axis side of the stage- house left. I hand out fresh start books immediately after.",
+              "emails": [
+                {
+                  "address": "tk.life.2013@gmail.com"
+                }
+              ]
             }
           ]
         }
@@ -552,9 +565,27 @@
               ]
             }
           ]
+        },
+        {
+          "code": "hld",
+          "slots": [
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Carol Moody",
+              "phone": "+19016059835",
+              "shot": "Discovery",
+              "their_note": "I’ll be serving in Discovery",
+              "emails": [
+                {
+                  "address": "debtfreemoody@gmail.com"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
   ],
-  "synced_at": "Aug 25, 2026 at 2:30 PM"
+  "synced_at": "Aug 30, 2026 at 7:03 AM"
 }
