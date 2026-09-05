@@ -146,6 +146,7 @@ def build(doc, synced_at):
         for campus in day["campuses"]:
             per_campus[campus["code"]] += len(campus["slots"])
     total = sum(per_campus.values())
+    active = [code for code in ORDER if per_campus[code]]
     with_number = sum(1 for d in days for c in d["campuses"] for s in c["slots"] if s.get("phone"))
 
     stats = "\n".join([
@@ -153,7 +154,7 @@ def build(doc, synced_at):
         f'      <div class="stat"><div class="n">{total}</div><div class="l">Sessions</div></div>',
         f'      <div class="stat"><div class="n">{len(days)}</div>'
         '<div class="l">Shoot days</div></div>',
-        f'      <div class="stat"><div class="n">{len(ORDER)}</div>'
+        f'      <div class="stat"><div class="n">{len(active)}</div>'
         '<div class="l">Locations</div></div>',
         f'      <div class="stat stat-wide"><div class="n">{doc["window"]["label"]}</div>'
         f'<div class="l">Window &middot; {with_number}/{total} numbers on file</div></div>',
@@ -167,10 +168,12 @@ def build(doc, synced_at):
         f'<span class="jn">{sum(len(c["slots"]) for c in d["campuses"])}</span></a>'
         for d in days)
 
+    # Only campuses actually in use get a chip -- a zero chip would filter the page
+    # down to nothing with no explanation.
     chips = "    " + "".join(
         f'<button class="chip chip-{code}" data-filter="{code}" type="button">'
         f'{esc(names[code])} <span>{per_campus[code]}</span></button>'
-        for code in ORDER)
+        for code in active)
 
     body = "\n".join(render_day(d, i, names) for i, d in enumerate(days, 1))
 
