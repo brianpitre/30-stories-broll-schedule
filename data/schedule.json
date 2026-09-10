@@ -70,6 +70,24 @@
               ]
             }
           ]
+        },
+        {
+          "code": "asp",
+          "slots": [
+            {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "Kevin Boyd",
+              "phone": "+19018282959",
+              "shot": null,
+              "their_note": "I will not be serving and LaHenrya will not be in town.",
+              "emails": [
+                {
+                  "address": "kwboyd84@yahoo.com"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -112,7 +130,7 @@
       ]
     }
   ],
-  "synced_at": "Sep 10, 2026 at 10:39 AM",
+  "synced_at": "Sep 10, 2026 at 2:17 PM",
   "archived_days": [
     {
       "date": "2026-08-16",
