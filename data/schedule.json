@@ -30,7 +30,7 @@
               "end": "9:00 am",
               "name": "Alberta & Randy Sullivan",
               "phone": "+19012778426",
-              "shot": "Salt and Light",
+              "shot": null,
               "their_note": "Attending the 9:00am service.",
               "emails": [
                 {
@@ -112,7 +112,7 @@
       ]
     }
   ],
-  "synced_at": "Sep 10, 2026 at 10:23 AM",
+  "synced_at": "Sep 10, 2026 at 10:39 AM",
   "archived_days": [
     {
       "date": "2026-08-16",
