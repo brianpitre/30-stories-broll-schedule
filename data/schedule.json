@@ -1,9 +1,9 @@
 {
   "_comment": "Canonical schedule data for the 30 Stories B-roll page. Edit this file, then run build.py to regenerate index.html. Do not hand-edit index.html.",
   "window": {
-    "start": "2026-09-06",
-    "end": "2026-09-06",
-    "label": "Sunday, September 6, 2026"
+    "start": "2026-09-13",
+    "end": "2026-09-20",
+    "note": "Rolling. The shoot is open-ended -- people are still booking. Do NOT reintroduce a fixed end date; build.py derives the label from the days present."
   },
   "campuses": {
     "hsl": "Houston Levee",
@@ -13,67 +13,41 @@
   "overrides": {
     "excluded": [],
     "page_only": [],
-    "time_overrides": [
-      {
-        "who": "Yunna Martin",
-        "date": "2026-09-06",
-        "campus": "hsl",
-        "page_time": "7:30 am",
-        "calendly_time": "8:30 am",
-        "reason": "Same as her Aug 23 slot: she books the earliest bookable 8:30 slot but her team starts earlier, and her own booking note says '7:30 start time'. Applied the handling Elizabeth confirmed on 2026-08-17. Flagged to her 2026-08-25 -- if she wants 8:30 instead, change it and drop this entry."
-      }
-    ],
+    "time_overrides": [],
     "open_questions": []
   },
   "days": [
     {
-      "date": "2026-09-06",
+      "date": "2026-09-13",
       "dow": "Sunday",
-      "label": "September 6",
+      "label": "September 13",
       "campuses": [
         {
           "code": "hsl",
           "slots": [
             {
+              "start": "8:30 am",
+              "end": "9:00 am",
+              "name": "Alberta & Randy Sullivan",
+              "phone": "+19012778426",
+              "shot": "Salt and Light",
+              "their_note": "Attending the 9:00am service.",
+              "emails": [
+                {
+                  "address": "rsulliv6@bellsouth.net"
+                }
+              ]
+            },
+            {
               "start": "9:00 am",
               "end": "9:30 am",
-              "name": "Jane Lawson",
-              "phone": "+19014862014",
-              "shot": null,
-              "their_note": null,
+              "name": "Samina Russell",
+              "phone": "+19012183618",
+              "shot": "Production",
+              "their_note": "HSL-Production. Cancel my 9.6 appt as I won’t be serving at that time (my mistake).",
               "emails": [
                 {
-                  "address": "jane@thelifechurch.com"
-                }
-              ]
-            },
-            {
-              "start": "11:00 am",
-              "end": "11:30 am",
-              "name": "Angel & Eric Criswell",
-              "phone": "+19014283742",
-              "shot": null,
-              "their_note": null,
-              "emails": [
-                {
-                  "address": "acriswell21@yahoo.com"
-                },
-                {
-                  "address": "ecriswell@dpcmemphis.com",
-                  "tag": "guest"
-                }
-              ]
-            },
-            {
-              "start": "7:30 am",
-              "end": "8:00 am",
-              "name": "Yunna Martin",
-              "phone": "+19012994806",
-              "shot": null,
-              "their_note": "7:30 start time",
-              "emails": [
-                {
-                  "address": "yunnamartin@gmail.com"
+                  "address": "srussell@thelifechurch.com"
                 }
               ]
             }
@@ -85,13 +59,51 @@
             {
               "start": "9:00 am",
               "end": "9:30 am",
-              "name": "Carol Moody",
-              "phone": "+19016059835",
-              "shot": "Discovery",
-              "their_note": "I’ll be serving in Discovery",
+              "name": "Tk Jones",
+              "phone": "+19013833558",
+              "shot": "Prayer partner 9:00 service; Fresh Start books after",
+              "their_note": "Prayer partner in the 9:00am service and handing out Fresh Start books.",
               "emails": [
                 {
-                  "address": "debtfreemoody@gmail.com"
+                  "address": "tk.life.2013@gmail.com"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "dow": "Sunday",
+      "label": "September 20",
+      "campuses": [
+        {
+          "code": "hsl",
+          "slots": [
+            {
+              "start": "10:30 am",
+              "end": "11:00 am",
+              "name": "Katie Braswell",
+              "phone": "+19015174442",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "katiebraswell@thelifechurch.com"
+                }
+              ]
+            },
+            {
+              "start": "11:00 am",
+              "end": "11:30 am",
+              "name": "Kelly White",
+              "phone": "+19018250404",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "klynn74@gmail.com"
                 }
               ]
             }
@@ -100,7 +112,7 @@
       ]
     }
   ],
-  "synced_at": "Sep 5, 2026 at 10:15 PM",
+  "synced_at": "Sep 10, 2026 at 10:23 AM",
   "archived_days": [
     {
       "date": "2026-08-16",
@@ -567,6 +579,79 @@
               "emails": [
                 {
                   "address": "rsulliv6@bellsouth.net"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "dow": "Sunday",
+      "label": "September 6",
+      "campuses": [
+        {
+          "code": "hsl",
+          "slots": [
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Jane Lawson",
+              "phone": "+19014862014",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "jane@thelifechurch.com"
+                }
+              ]
+            },
+            {
+              "start": "11:00 am",
+              "end": "11:30 am",
+              "name": "Angel & Eric Criswell",
+              "phone": "+19014283742",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "acriswell21@yahoo.com"
+                },
+                {
+                  "address": "ecriswell@dpcmemphis.com",
+                  "tag": "guest"
+                }
+              ]
+            },
+            {
+              "start": "7:30 am",
+              "end": "8:00 am",
+              "name": "Yunna Martin",
+              "phone": "+19012994806",
+              "shot": null,
+              "their_note": "7:30 start time",
+              "emails": [
+                {
+                  "address": "yunnamartin@gmail.com"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "hld",
+          "slots": [
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Carol Moody",
+              "phone": "+19016059835",
+              "shot": "Discovery",
+              "their_note": "I’ll be serving in Discovery",
+              "emails": [
+                {
+                  "address": "debtfreemoody@gmail.com"
                 }
               ]
             }

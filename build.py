@@ -56,6 +56,21 @@ def plural(n, word):
     return f"{n} {word}" if n == 1 else f"{n} {word}s"
 
 
+def window_label(days):
+    """Derive the window caption from the days on the page, so it cannot go stale.
+    The shoot is open-ended -- do not reintroduce a fixed end date."""
+    first, last = days[0], days[-1]
+    fy, fm, fd = int(first["date"][:4]), int(first["date"][5:7]), int(first["date"][8:10])
+    ly, lm, ld = int(last["date"][:4]), int(last["date"][5:7]), int(last["date"][8:10])
+    if first["date"] == last["date"]:
+        return f'{first["dow"]}, {MONTHS[fm - 1]} {fd}, {fy}'
+    if (fy, fm) == (ly, lm):
+        return f'{MONTHS[fm - 1]} {fd} &ndash; {ld}, {fy}'
+    if fy == ly:
+        return f'{MONTHS[fm - 1]} {fd} &ndash; {MONTHS[lm - 1]} {ld}, {fy}'
+    return f'{MONTHS[fm - 1]} {fd}, {fy} &ndash; {MONTHS[lm - 1]} {ld}, {ly}'
+
+
 def render_slot(slot):
     name = esc(slot["name"])
     out = ['          <article class="slot">',
@@ -156,7 +171,7 @@ def build(doc, synced_at):
         '<div class="l">Shoot days</div></div>',
         f'      <div class="stat"><div class="n">{len(active)}</div>'
         '<div class="l">Locations</div></div>',
-        f'      <div class="stat stat-wide"><div class="n">{doc["window"]["label"]}</div>'
+        f'      <div class="stat stat-wide"><div class="n">{window_label(days)}</div>'
         f'<div class="l">Window &middot; {with_number}/{total} numbers on file</div></div>',
         "    </div>"])
 
