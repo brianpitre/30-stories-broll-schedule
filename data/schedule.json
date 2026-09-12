@@ -124,13 +124,30 @@
                   "address": "klynn74@gmail.com"
                 }
               ]
+            },
+            {
+              "start": "9:00 am",
+              "end": "9:30 am",
+              "name": "Julie & Mark Van Blaricom",
+              "phone": "+19012403709",
+              "shot": null,
+              "their_note": null,
+              "emails": [
+                {
+                  "address": "julie.vb@comcast.net"
+                },
+                {
+                  "address": "markvanb@comcast.net",
+                  "tag": "guest"
+                }
+              ]
             }
           ]
         }
       ]
     }
   ],
-  "synced_at": "Sep 10, 2026 at 2:26 PM",
+  "synced_at": "Sep 12, 2026 at 5:04 PM",
   "archived_days": [
     {
       "date": "2026-08-16",
